@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BodyTune.Models
 {
+    //test
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
