@@ -650,6 +650,10 @@ abbr.initialism {
   text-transform: uppercase;
 }
 
+.h1Logo {
+    font-family: Magneto;
+}
+
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
@@ -785,6 +789,8 @@ pre code {
     font-size: smaller;
 
 }
+
+
 .container:before,
 .container:after {
   display: table;
@@ -3365,6 +3371,13 @@ input[type="button"].btn-block {
   content: "";
 }
 
+.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -4052,6 +4065,16 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
 }
 
+.navbar2 {
+  position: fixed;
+  z-index: 1000;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+
+
 .navbar:before,
 .navbar:after {
   display: table;
@@ -4516,6 +4539,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-link {
   color: #777777;
+}
+
+a.logoLink
+{
+    background: url(../Content/Uploads/BodyTuneLogoBlue.JPG) no-repeat top left;
+    background-size: 140px;
+     display: block;
+     height: 100px;
+     margin-left: 5px;
+     text-indent: -9999px; /* hides the link text */
+     box-shadow: inset 1px 1px 6px 4px #1E90FF;
 }
 
 .navbar-default .navbar-link:hover {
