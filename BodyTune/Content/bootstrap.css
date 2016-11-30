@@ -46,7 +46,7 @@ summary {
 .therapistdesc
 {
     float: left;
-    margin-left: 20px;
+    display: inline-block;
     font: 50px;
     font-family: Magneto;
 
