@@ -36,6 +36,22 @@ summary {
   display: block;
 }
 
+.therapistimg
+{
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.therapistdesc
+{
+    float: left;
+    margin-left: 20px;
+    font: 50px;
+    font-family: Magneto;
+
+}
+
 audio,
 canvas,
 video {
