@@ -17,7 +17,7 @@
             <ul style="list-style: none;">
                 <li>@Html.ActionLink("About", "About", "Home", new { @class = "leftNavHeadings" })</li>
                 <li>@Html.ActionLink("Mission", "Index", "Mission", null, new { @class = "leftNavSubHeadings" })</li>
-                <li>@Html.ActionLink("Therapist", "", "", new { @class = "leftNavSubHeadings" })</li>
+                <li>@Html.ActionLink("Therapist", "Therapist", "Therapist", null, new { @class = "leftNavSubHeadings" })</li>
             </ul>
         </div>
         <div class="leftNavSections">
@@ -58,7 +58,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Body Tune</p>
         </footer>
     </div>
 

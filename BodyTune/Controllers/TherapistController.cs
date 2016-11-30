@@ -13,5 +13,10 @@ namespace BodyTune.Controllers
         {
             return View();
         }
+
+        public ActionResult Therapist()
+        {
+            return View();
+        }
     }
 }
