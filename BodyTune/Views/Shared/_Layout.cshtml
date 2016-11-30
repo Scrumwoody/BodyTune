@@ -15,7 +15,8 @@
         @Html.ActionLink("BodyTune", "Index", "Home", null, new { @class = "logoLink" })
         <div class="leftNavSections">
             <ul style="list-style: none;">
-                <li>@Html.ActionLink("About", "About", "Home", new { @class = "leftNavHeadings" })</li>
+                <li><span class="leftNavHeadings">General</span></li>
+                <li>@Html.ActionLink("About", "About", "Home", new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("Mission", "Index", "Mission", null, new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("Therapist", "Therapist", "Therapist", null, new { @class = "leftNavSubHeadings" })</li>
             </ul>
