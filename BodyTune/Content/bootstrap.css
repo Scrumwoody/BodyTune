@@ -41,6 +41,7 @@ summary {
     float:left;
     margin-left: 10px;
     margin-right: 10px;
+   clear: left;
 }
 
 .therapistdesc
@@ -49,6 +50,7 @@ summary {
     display: inline-block;
     font: 75px;
     font-family: Magneto;
+}
 
 }
 
@@ -669,6 +671,9 @@ abbr.initialism {
 .h1Logo {
     font-family: Magneto;
 }
+.paragraphText{
+     font-family: Magneto;}
+
 
 blockquote {
   padding: 10px 20px;
