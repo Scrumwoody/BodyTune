@@ -40,17 +40,17 @@ summary {
 {
     float:left;
     margin-right: 10px;
-    border:solid, blue;
+    border:solid, #1E90FF;
 }
 
 .therapistdesc
 {
     float: left;
-    border: 2px solid blue;
-    font: 100px;
+    border: 4px solid #1E90FF;
+    font: 250px;
+    margin-top: 30px;
     font-family: calibri;
-    border:groove;
-  
+   
 }
 
 

@@ -342,3 +342,4 @@ C:\Users\thieril\Documents\GitHub\BodyTune\BodyTune\bin\Microsoft.Owin.Security.
 C:\Users\thieril\Documents\GitHub\BodyTune\BodyTune\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\thieril\Documents\GitHub\BodyTune\BodyTune\obj\Debug\BodyTune.dll
 C:\Users\thieril\Documents\GitHub\BodyTune\BodyTune\obj\Debug\BodyTune.pdb
+C:\Users\thieril\Documents\GitHub\BodyTune\BodyTune\obj\Debug\BodyTune.csprojResolveAssemblyReference.cache
