@@ -182,15 +182,15 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\BeckyProfilePic.png" />
-    <Content Include="Content\BenProfilePic.png" />
+    <Content Include="Content\TherapistProfilePics\BeckyProfilePic.png" />
+    <Content Include="Content\TherapistProfilePics\BenProfilePic.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\CalebProfile Pic.png" />
-    <Content Include="Content\EricaProfilePic.png" />
-    <Content Include="Content\HeatherProfilePic.png" />
-    <Content Include="Content\HomePageImage.jpg" />
-    <Content Include="Content\KatieProfilePic.png" />
+    <Content Include="Content\TherapistProfilePics\CalebProfile Pic.png" />
+    <Content Include="Content\TherapistProfilePics\EricaProfilePic.png" />
+    <Content Include="Content\TherapistProfilePics\HeatherProfilePic.png" />
+    <Content Include="Content\TherapistProfilePics\HomePageImage.jpg" />
+    <Content Include="Content\TherapistProfilePics\KatieProfilePic.png" />
     <Content Include="Content\Uploads\BodyTuneLogoBlue.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
