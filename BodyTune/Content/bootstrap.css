@@ -52,7 +52,7 @@ summary {
     font-family: Magneto;
 }
 
-}
+
 
 audio,
 canvas,
@@ -5012,7 +5012,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: dodgerblue;
 }
 
 .jumbotron h1 {
