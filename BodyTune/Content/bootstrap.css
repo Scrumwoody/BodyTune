@@ -39,17 +39,18 @@ summary {
 .therapistimg
 {
     float:left;
-    margin-left: 10px;
     margin-right: 10px;
-   clear: left;
+    border:solid, blue;
 }
 
 .therapistdesc
 {
     float: left;
-    display: inline-block;
-    font: 75px;
-    font-family: Magneto;
+    border: 2px solid blue;
+    font: 100px;
+    font-family: calibri;
+    border:groove;
+  
 }
 
 
@@ -70,7 +71,7 @@ audio:not([controls]) {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: calibri;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -118,10 +119,10 @@ mark {
 }
 
 code,
-kbd,
+kbd
 pre,
 samp {
-  font-family: monospace, serif;
+  font-family:calibri;
   font-size: 1em;
 }
 
@@ -181,7 +182,7 @@ input,
 select,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: calibri;
   font-size: 100%;
 }
 
@@ -329,7 +330,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: calibri;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -340,7 +341,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: calibri;
   font-size: inherit;
   line-height: inherit;
 }
@@ -491,7 +492,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: calibri;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -669,10 +670,11 @@ abbr.initialism {
 }
 
 .h1Logo {
-    font-family: Magneto;
+    font-family: calibri;
 }
 .paragraphText{
-     font-family: Magneto;}
+     font-family: calibri;     
+}
 
 
 blockquote {
@@ -737,7 +739,7 @@ address {
 
 code,
 pre {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family:calibri;
 }
 
 code {
@@ -1732,7 +1734,7 @@ select[size] {
 }
 
 select optgroup {
-  font-family: inherit;
+  font-family: calibri;
   font-size: inherit;
   font-style: inherit;
 }
@@ -6203,7 +6205,7 @@ body.modal-open,
   height: 20px;
   margin-top: -10px;
   margin-left: -10px;
-  font-family: serif;
+  font-family: calibri;
 }
 
 .carousel-control .icon-prev:before {

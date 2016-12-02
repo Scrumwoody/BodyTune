@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title -Body Tune</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
 <body>
-
+    
 
     <div class="navbar2 navbar-fixed-left">
         @Html.ActionLink("BodyTune", "Index", "Home", null, new { @class = "logoLink" })
@@ -63,7 +63,7 @@
             <p>&copy; @DateTime.Now.Year - Body Tune</p>
         </footer>
     </div>
-
+    overflow:auto
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
