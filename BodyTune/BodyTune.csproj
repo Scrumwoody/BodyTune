@@ -182,14 +182,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\BeckyProfilePic.png" />
-    <Content Include="Content\BenProfilePic.png" />
+    <Content Include="Content\Images\BeckyProfilePic.png" />
+    <Content Include="Content\Images\BenProfilePic.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\CalebProfile Pic.png" />
-    <Content Include="Content\EricaProfilePic.png" />
-    <Content Include="Content\HeatherProfilePic.png" />
-    <Content Include="Content\KatieProfilePic.png" />
+    <Content Include="Content\Images\CalebProfile Pic.png" />
+    <Content Include="Content\Images\EricaProfilePic.png" />
+    <Content Include="Content\Images\HeatherProfilePic.png" />
+    <Content Include="Content\Images\KatieProfilePic.png" />
     <Content Include="Content\Uploads\BodyTuneLogoBlue.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
