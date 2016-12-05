@@ -679,6 +679,13 @@ abbr.initialism {
      font-family: calibri;     
 }
 
+.aboutUsImage {
+    margin-right: 10px;
+    float: left;
+    clear: right;
+}
+
+
 
 blockquote {
   padding: 10px 20px;
