@@ -674,6 +674,7 @@ abbr.initialism {
 
 .h1Logo {
     font-family: Magneto;
+    text-align: center;
 }
 .paragraphText{
      font-family: calibri;     
@@ -681,8 +682,8 @@ abbr.initialism {
 
 .aboutUsImage {
     margin-right: 10px;
-    float: left;
-    clear: right;
+    vertical-align: middle;
+    text-align: center;
 }
 
 
