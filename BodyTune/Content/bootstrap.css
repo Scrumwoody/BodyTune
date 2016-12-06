@@ -673,11 +673,18 @@ abbr.initialism {
 }
 
 .h1Logo {
-    font-family: calibri;
+    font-family: Magneto;
+    text-align: center;
 }
 .paragraphText{
      font-family: calibri;     
 }
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 blockquote {

@@ -193,6 +193,7 @@
     <Content Include="Content\TherapistProfilePics\HomePageImage.jpg" />
     <Content Include="Content\TherapistProfilePics\KatieProfilePic.png" />
     <Content Include="Content\Uploads\BodyTuneLogoBlue.JPG" />
+    <Content Include="Content\Uploads\physical-therapy.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
