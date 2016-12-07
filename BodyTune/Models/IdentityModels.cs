@@ -29,5 +29,7 @@ namespace BodyTune.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<BodyTune.Models.BodyPart> BodyParts { get; set; }
     }
 }

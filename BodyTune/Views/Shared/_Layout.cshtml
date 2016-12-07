@@ -15,10 +15,6 @@
         <div class="leftNavSections">
             <ul style="list-style: none;">
                 <li><span class="leftNavHeadings">General</span></li>
-
-
-                <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "leftNavSubHeadings" })</li>
-
                 <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("Mission", "Index", "Mission", null, new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("Therapist", "Therapist", "Therapist", null, new { @class = "leftNavSubHeadings" })</li>
@@ -27,26 +23,10 @@
         <div class="leftNavSections">
             <ul style="list-style: none;">
                 <li><span class="leftNavHeadings">Exercise</span></li>
-                <li>@Html.ActionLink("Library", "", "", new { @class = "leftNavSubHeadings" })</li>
+                <li>@Html.ActionLink("Library", "Index", "Exercises", null, new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("Assigned", "", "", new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("Favorites", "", "", new { @class = "leftNavSubHeadings" })</li>
                 <li>@Html.ActionLink("History", "", "", new { @class = "leftNavSubHeadings" })</li>
-            </ul>
-        </div>
-        <div class="leftNavSections">
-            <ul style="list-style: none;">
-                <li><span class="leftNavHeadings">Appointment</span></li>
-                <li>@Html.ActionLink("Request", "", "", new { @class = "leftNavSubHeadings" })</li>
-                <li>@Html.ActionLink("View", "", "", new { @class = "leftNavSubHeadings" })</li>
-                <li>@Html.ActionLink("Cancel", "", "", new { @class = "leftNavSubHeadings" })</li>
-                <li>@Html.ActionLink("History", "", "", new { @class = "leftNavSubHeadings" })</li>
-            </ul>
-        </div>
-        <div class="leftNavSections">
-            <ul style="list-style: none;">
-                <li><span class="leftNavHeadings">Messages</span></li>
-                <li>@Html.ActionLink("Inbox", "", "", new { @class = "leftNavSubHeadings" })</li>
-                <li>@Html.ActionLink("Contact", "", "", new { @class = "leftNavSubHeadings" })</li>
             </ul>
         </div>
         <div class="leftNavSections">
