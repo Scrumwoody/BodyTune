@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
@@ -16,15 +17,15 @@ namespace BodyTune.Models
 
         [Column(TypeName = "date")]
         public DateTime EndDate { get; set; }
-
+        [DisplayName("Frequency Per Week")]
         public int Frequency { get; set; }
 
         public int UserId { get; set; }
 
         public int ExerciseId { get; set; }
-
+        [DisplayName("Exercise Name")]
         public virtual Exercise Exercise { get; set; }
-
+        [DisplayName("Client Name")]
         public virtual User User { get; set; }
     }
 }
